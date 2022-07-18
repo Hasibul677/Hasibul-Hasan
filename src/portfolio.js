@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Hasibul Hasan Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://hasibulhasan.netlify.app/",
   },
 };
 
