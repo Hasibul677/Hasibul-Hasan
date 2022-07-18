@@ -11,7 +11,7 @@ const seo = {
   description:
     "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Hasibul Hasan Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -277,16 +277,10 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create MERN projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
 
 // Contact Page
 const contactPageData = {
@@ -319,6 +313,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
   contactPageData,
 };

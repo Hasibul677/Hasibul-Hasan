@@ -1,1 +1,74 @@
-{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=","name":"masterPortfolio","createdAt":"2020-03-06T16:26:54Z","url":"https://github.com/ashutosh1919/masterPortfolio","description":"The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=","name":"truvisory","createdAt":"2020-06-03T11:53:55Z","url":"https://github.com/ashutosh1919/truvisory","description":"This project is meant to provide resources to users who want to access good LinkedIn posts which contains resources to learn any Technology, Design, Self-Branding, Motivation etc. You can visit project by:","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=","name":"ml-data-bot","createdAt":"2020-06-19T14:24:55Z","url":"https://github.com/ashutosh1919/ml-data-bot","description":"Chatbot which helps you to get important statistics from the data to get insights to build Machine learning, Deep learning and Statistical models","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=","name":"Stock-Prediction-using-LSTM","createdAt":"2018-11-03T05:00:56Z","url":"https://github.com/ashutosh1919/Stock-Prediction-using-LSTM","description":"This Project is predicting stocks for 32 companies with error less than 1% using LSTM Networks.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"},{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=","name":"Pick-Parser","createdAt":"2019-08-13T13:13:00Z","url":"https://github.com/dsc-iiitdmk/Pick-Parser","description":"This Project is to create a tool which can parse the Resumes and transform them into our own templates","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=","name":"Survival_3D_Game","createdAt":"2019-04-18T17:25:51Z","url":"https://github.com/ashutosh1919/Survival_3D_Game","description":"Survival Game using Unity3D","isFork":false,"languages":[{"name":"C#","iconifyClass":"logos-c-sharp"}]}]}
+{"data":
+[
+    {"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=1",
+    "name":"Minery Lighting",
+    "createdAt":"2021-03-06T16:26:54Z",
+    "url":"https://minery-lighting.web.app/",
+    "description":"This project about lighting shop. In this project user and admin panel. Before registration user can view the shop details. For buying product user must be registration and after service customer can give the feedback about the service. Admin can control all the part.",
+    "isFork":false,
+    "languages":[
+        {"name":"HTML","iconifyClass":"logos-html-5"},
+        {"name":"CSS","iconifyClass":"logos-css-3"},
+        {"name":"React","iconifyClass":"logos-react"},
+        {"name":"Node JS","iconifyClass":"logos-nodejs"},
+        {"name":"MongoDB","iconifyClass":"simple-icons:mongodb"},
+        {"name":"Firebase","iconifyClass":"logos-firebase"}
+        ]
+    },
+
+    {"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=2",
+    "name":"Medizoid",
+    "createdAt":"2021-02-10T16:26:54Z",
+    "url":"https://health-care-2615d.web.app/",
+    "description":"This project developing for doctor service on online. User can easily contact with doctor and for health service they are take an appointment using this system.",
+    "isFork":false,
+    "languages":[
+        {"name":"HTML","iconifyClass":"logos-html-5"},
+        {"name":"CSS","iconifyClass":"logos-css-3"},
+        {"name":"React","iconifyClass":"logos-react"},
+        {"name":"Node JS","iconifyClass":"logos-nodejs"},
+        {"name":"MongoDB","iconifyClass":"simple-icons:mongodb"},
+        {"name":"Firebase","iconifyClass":"logos-firebase"}
+        ]
+    },
+
+    {"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=3",
+    "name":"Boomerang",
+    "createdAt":"2021-02-10T16:26:54Z",
+    "url":"https://hasibul-boomerang.netlify.app/",
+    "description":"This project developing for verify my frontend skill.",
+    "isFork":false,
+    "languages":[
+        {"name":"HTML","iconifyClass":"logos-html-5"},
+        {"name":"CSS","iconifyClass":"logos-css-3"},
+        {"name":"Bootstrap","iconifyClass":"logos-bootstrap"}
+        ]
+    },
+
+    {"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=4",
+    "name":"Hunter-House",
+    "createdAt":"2021-02-01T16:26:54Z",
+    "url":"https://hunter-house.netlify.app/",
+    "description":"This project developing for verify my frontend skill.",
+    "isFork":false,
+    "languages":[
+        {"name":"HTML","iconifyClass":"logos-html-5"},
+        {"name":"CSS","iconifyClass":"logos-css-3"},
+        {"name":"Tailwind","iconifyClass":"simple-icons:tailwindcss"}
+        ]
+    },
+
+    {"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=5",
+    "name":"Presento",
+    "createdAt":"2021-01-18T16:26:54Z",
+    "url":"https://h-presento.netlify.app/",
+    "description":"This project developing for verify my frontend skill.",
+    "isFork":false,
+    "languages":[
+        {"name":"HTML","iconifyClass":"logos-html-5"},
+        {"name":"CSS","iconifyClass":"logos-css-3"},
+        {"name":"Bootstrap","iconifyClass":"logos-bootstrap"}
+        ]
+    }
+
+]}

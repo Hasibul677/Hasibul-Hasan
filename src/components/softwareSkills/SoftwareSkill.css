@@ -4,7 +4,6 @@
   font-size: 3rem;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-align: center;
 }
 
 .software-skill-inline {
@@ -20,4 +19,10 @@
 
 .software-skill-inline > i:hover {
   color: #645beb;
+}
+
+@media screen and (max-width: 600px) {
+  .dev-icons {
+    text-align: center;
+  }
 }
