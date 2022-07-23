@@ -3,7 +3,6 @@ import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import Error404 from "../pages/errors/error404/Error";
@@ -36,12 +35,7 @@ export default class Main extends Component {
                 <Education {...props} theme={this.props.theme} />
               )}
             />
-            <Route
-              path="/opensource"
-              render={(props) => (
-                <Opensource {...props} theme={this.props.theme} />
-              )}
-            />
+
             <Route
               path="/contact"
               render={(props) => (

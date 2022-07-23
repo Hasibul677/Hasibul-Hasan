@@ -19,7 +19,7 @@ class Contact extends Component {
     return (
       <div className="contact-main">
         <Header theme={theme} />
-        <div className="basic-contact" style={{marginBottom:"100px"}}>
+        <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
@@ -54,8 +54,8 @@ class Contact extends Component {
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
-            <div className="blog-heading-div">
-            <div className="address-heading-text-div">
+            <div className="address-heading-div">
+              <div className="address-heading-text-div">
                 <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}

@@ -6,7 +6,6 @@ export default function AchivementCard({ cardInfo }) {
     win.focus();
   }
 
- 
   return (
     <div className="certificate-card">
       <div className="certificate-image-div">

@@ -152,6 +152,7 @@ const skills = {
 };
 
 // Education Page
+
 const degrees = {
   degrees: [
     {
@@ -224,7 +225,7 @@ const experience = {
           description:
             "I am working on Tutory Club. It is a online tution system. An Online Tutoring Platform design for Tutors and Students. You can do a TEST Class before enroll your course with any tutors.This is a BEST initiatives for you to make you happy!.",
           color: "#0879bf",
-        }
+        },
       ],
     },
     {
@@ -281,7 +282,6 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -292,8 +292,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Shajadpur, Gulshan, Dhaka 1212, Bangladesh",
+    subtitle: "Shajadpur, Gulshan, Dhaka 1212, Bangladesh",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/GiJaLh9D5QqkQbQZ9",
   },
