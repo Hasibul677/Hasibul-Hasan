@@ -30,6 +30,7 @@ const greeting = {
   githubProfile: "https://github.com/Hasibul677",
 };
 
+//Social Media Link
 const socialMediaLinks = [
   {
     name: "Github",
@@ -56,7 +57,7 @@ const socialMediaLinks = [
     backgroundColor: "#1877F2",
   },
 ];
-
+//Home Page Skill
 const skills = {
   data: [
     {
