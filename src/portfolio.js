@@ -154,7 +154,6 @@ const skills = {
 };
 
 // Education Page
-
 const degrees = {
   degrees: [
     {
@@ -177,6 +176,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      id: 1,
       title: "Web Development",
       subtitle: "Halcyon",
       logo_path: "intern.png",
@@ -186,6 +186,7 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
+      id: 2,
       title: "Junior Web Developer",
       subtitle: "Programming Hero",
       logo_path: "ph.png",
@@ -195,6 +196,7 @@ const certifications = {
       color_code: "#00000099",
     },
     {
+      id: 3,
       title: "Hash Code 2020",
       subtitle: "Google",
       logo_path: "hash.png",
