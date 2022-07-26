@@ -61,6 +61,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      id: 1,
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
