@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
   resumeLink:
-    "https://drive.google.com/file/d/1AjlSCPmDH4F6dXtKPUnavBSoCHZoKFrI/view?usp=sharing",
+    "https://drive.google.com/file/d/1o6ZNoCco9nQU6GE13_g4YR7Wrqse6iMt/view?usp=sharing",
   portfolio_repository: "https://github.com/Hasibul677",
   githubProfile: "https://github.com/Hasibul677",
 };
