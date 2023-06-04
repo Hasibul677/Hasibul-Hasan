@@ -177,6 +177,16 @@ const certifications = {
   certifications: [
     {
       id: 1,
+      title: "Software Engineer",
+      subtitle: "NAJJ Technologies Limited",
+      logo_path: "najj-cerificate.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1EzZ7f70kRkB0RPt7VRup35sITuY-vb1X/view?usp=sharing",
+      alt_name: "Halcyon",
+      color_code: "#8C151599",
+    },
+    {
+      id: 1,
       title: "Web Development",
       subtitle: "Halcyon",
       logo_path: "intern.png",
@@ -221,13 +231,26 @@ const experience = {
       experiences: [
         {
           title: "Software Engineer",
+          company: "BABL [Business Accelerate BD Ltd]",
+          company_url: "https://businessaccelerate.com.bd/",
+          logo_path: "babl.jpeg",
+          duration: "February 2023 - Present",
+          location:
+            "Sand Stone GA 9/3 Level: 03, Progoti Shoroni Shoroni Shajadpur, Dhaka-1212, Bangladesh",
+          description:
+            "Business Accelerate BD Ltd. operates as a Technology Business Entity with the vision of helping people (B2C) and Businesses (B2B) with cutting-edge technologies and its derivatives to improve our life (B2C) and realization of the value of automation (B2B).BABL aims to help Businesses in different types of sectors to reach their optimum level through implementation of smart software’s which help Businesses in achieving process automation and will also help to streamline the relationship between consumer and service providers in respective Business sectors.",
+          color: "#0879bf",
+        },
+        {
+          title: "Software Engineer",
           company: "NAJJ Technologies Ltd",
           company_url: "https://najjtechnologies.com/",
           logo_path: "najj.jpg",
-          duration: "Nov 2021 - PRESENT",
-          location: "Dhaka, Bangladesh",
+          duration: "November 2021 - January 2023",
+          location:
+            "House# GA, National Rose Valley, 39 Japan School Rd, Dhaka-1212, Bangladesh",
           description:
-            "I am working on Tutory Club. It is a online tution system. An Online Tutoring Platform design for Tutors and Students. You can do a TEST Class before enroll your course with any tutors.This is a BEST initiatives for you to make you happy!.",
+            "NAJJ Technologies Ltd. is a specialist software development company run by a dedicated and highly experienced IT management team, having all worked in technology and software solutions across globe. We combine this skill set with highly talented delivery specialists, ranging from project managers, business analysts to commercial software engineers. Based in Dhaka, Bangladesh we support clients throughout globe.",
           color: "#0879bf",
         },
       ],
@@ -292,7 +315,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "hasibul.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with HTML, CSS, JS, React, Node js and MongoDB",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
   addressSection: {
     title: "Address",
