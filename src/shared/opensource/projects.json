@@ -157,50 +157,6 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=7",
-      "name": "Fashion World",
-      "createdAt": "2021-06-3T16:26:54Z",
-      "url": "https://st-fashion-house.netlify.app/",
-      "description": "This project developing for tesing my framkwork experience. This project only for frontend, there is no functional action.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Bootstrap",
-          "iconifyClass": "logos-bootstrap"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=8",
-      "name": "Bou Bazar",
-      "createdAt": "2021-02-09T16:26:54Z",
-      "url": "https://hasibul677.github.io/Bou-BazaR/",
-      "description": "It is a fun project. This project only for frontend, there is no functional action.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Bootstrap",
-          "iconifyClass": "logos-bootstrap"
-        }
-      ]
-    },
-    {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=9",
       "name": "Jail Cafe",
       "createdAt": "2021-02-01T16:26:54Z",
@@ -228,28 +184,6 @@
       "createdAt": "2021-02-01T16:26:54Z",
       "url": "https://hasibul-blogzin.netlify.app/",
       "description": "It is a bootstrap paid site. When I was learnign bootstrap framwork that time I was clone the side on bootstrap website. This project only for frontend, there is no functional action.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Bootstrap",
-          "iconifyClass": "logos-bootstrap"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=11",
-      "name": "Bank Service",
-      "createdAt": "2021-02-01T16:26:54Z",
-      "url": "https://hasibul-bank-service.netlify.app/",
-      "description": "This is a samll project. Here I was learnig how to DOM working with code. It is a normal project but functional.",
       "isFork": false,
       "languages": [
         {

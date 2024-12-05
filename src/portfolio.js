@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
   resumeLink:
-    "https://drive.google.com/file/d/1o6ZNoCco9nQU6GE13_g4YR7Wrqse6iMt/view?usp=sharing",
+    "https://drive.google.com/file/d/15jrJrSd7KXyTN7vmV-W_sRLFWTlwkpHX/view?usp=sharing",
   portfolio_repository: "https://github.com/Hasibul677",
   githubProfile: "https://github.com/Hasibul677",
 };
@@ -50,24 +50,23 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/hhasibul2",
-    fontAwesomeIcon: "fa-facebook-f",
-    backgroundColor: "#1877F2",
-  },
 ];
 //Home Page Skill
 const skills = {
   data: [
     {
       id: 1,
-      title: "Full Stack Development",
+      title: "Frontend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux.",
-        "⚡ For design I have experience on Adobe XD and Figma file.",
-        "⚡ Creating application backend in Node, Express & MongoDB.",
+        "⚡ Building responsive and user-friendly front ends using React and Redux.",
+        "⚡ Creating modular and reusable UI components for scalability.",
+        "⚡ Expertise in CSS frameworks like TailwindCSS, Bootstrap, and Material-UI.",
+        "⚡ Ensuring performance, accessibility (WCAG), and cross-browser compatibility.",
+        "⚡ Translating designs from Adobe XD, Figma, and Sketch into functional code.",
+        "⚡ Integrating APIs and managing state with Redux and Context API.",
+        "⚡ Debugging and optimizing UI/UX using browser tools and testing frameworks.",
+        "⚡ Adding interactive animations with Framer Motion and GSAP.",
       ],
       softwareSkills: [
         {
@@ -107,6 +106,28 @@ const skills = {
           },
         },
         {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "Backend Development",
+      fileName: "BackendImg",
+      skills: [
+        "⚡ Building scalable backends with Node.js, Express, and MongoDB.",
+        // "⚡ Developing server-side applications using Java and Spring Boot.",
+        "⚡ Creating RESTful APIs",
+        "⚡ Implementing authentication with JWT, OAuth, and Spring Security.",
+        "⚡ Writing clean, modular, and secure backend code.",
+        "⚡ Managing workflows with Docker, Postman.",
+      ],
+      softwareSkills: [
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
@@ -114,38 +135,10 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
-          },
-        },
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
           },
         },
       ],
@@ -158,7 +151,7 @@ const degrees = {
   degrees: [
     {
       title: "International University of Business Agriculture and Technology",
-      subtitle: "Bsc in Computer Engineering",
+      subtitle: "Bsc. in Computer Science and Engineering",
       logo_path: "iubat.png",
       alt_name: "IIITDM Kurnool",
       duration: "2017 - 2020",
@@ -222,8 +215,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "I am working on MERN Stack Development. I'm experience on this field.",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -305,7 +297,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create MERN projects and deploy them to web applications using cloud infrastructure.",
+    "My projects leverage a wide range of cutting-edge technology tools. I excel in developing robust web applications and deploying them on cloud infrastructure for enhanced scalability and performance.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -315,13 +307,13 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "hasibul.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
+      "Feel free to connect with me on any social media platform—I'm active on almost all of them! If you send me a message, I’ll make sure to reply within 24 hours. Whether it’s for work, networking, or a quick chat, I’m just a message away.",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Shajadpur, Gulshan, Dhaka 1212, Bangladesh",
+    subtitle: "Progoti Shoroni, Shajadpur, Dhaka-1212, Bangladesh",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/GiJaLh9D5QqkQbQZ9",
+    location_map_link: "https://maps.app.goo.gl/fNZH3EjhmVgLjEm17",
   },
   phoneSection: {
     title: "Phone Number",

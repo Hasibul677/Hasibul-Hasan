@@ -7,8 +7,10 @@ import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { greeting, projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
+import ClintProjectsData from "../../shared/opensource/clintProject.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import ClintProjectCard from "../../components/ClintProjectCard/ClintProjectCard.js";
 
 class Projects extends Component {
   render() {
@@ -22,6 +24,7 @@ class Projects extends Component {
               <div className="projects-heading-img-div">
                 <ProjectsImg theme={theme} />
               </div>
+
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
@@ -39,11 +42,23 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+
+        <h3>CLINT PROJECTS</h3>
+
+        <div className="repo-cards-div-main">
+          {ClintProjectsData.data.map((repo) => {
+            return <ClintProjectCard key={repo.id} repo={repo} theme={theme} />;
+          })}
+        </div>
+
+        <h3>PERSONAL PROJECTS</h3>
+
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard key={repo.id} repo={repo} theme={theme} />;
           })}
         </div>
+
         <Button
           text={"More Projects"}
           className="project-button"

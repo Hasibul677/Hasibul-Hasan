@@ -1,0 +1,175 @@
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=22",
+      "name": "Meghna Bank Liability Management & 360-Degree Customer",
+      "company": "BABL [Business Accelerate BD Ltd]",
+      "createdAt": "",
+      "url": "",
+      "description": "As the Frontend Team Lead, I led the development of a web application aimed at improving banking services for customers in Bangladesh.<br>The project involved live data integration for searching, viewing, and generating reports on customer-related information.<br><br>Responsibilities:<br><br>1. Led the frontend team in building a responsive, scalable application using React.js, Material UI, React-Bootstrap, and RTK.<br>2. Integrated real-time data handling through Redux Query and microservices architecture.<br>3. Ensured best practices through code reviews and mentoring junior developers.<br>4. Collaborated with backend teams for seamless integration of microservices.<br>5. Designed an intuitive and user-friendly interface, improving the overall user experience.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos-bootstrap"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Oracle",
+          "iconifyClass": "simple-icons:oracle"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=55",
+      "name": "Liability Workflow (City Bank Limited)",
+      "company": "BABL [Business Accelerate BD Ltd]",
+      "createdAt": "",
+      "url": "",
+      "description": "As a Frontend Developer, I contributed to the development of a web application designed to streamline banking services for customers in Bangladesh.<br>The project focused on integrating live data for searching, viewing, and generating reports related to customer information.<br><br>Responsibilities:<br><br>1. Collected client requirements to understand needs and expectations.<br>2. Created dynamic forms using custom JSON for data handling.<br>3. Implemented file upload functionality for data management in tables.<br>4. Collaborated with the backend team to integrate APIs into the frontend.<br>5. Designed reusable React components for tables, modals, and error handling.<br>6. Adapted design to meet client specifications for a responsive interface.<br>7. Conducted client meetings for feedback and updates.<br>8. Resolved UAT-related issues to improve application performance.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos-bootstrap"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Oracle",
+          "iconifyClass": "simple-icons:oracle"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=11",
+      "name": "Bhutan Integrated Revenue Management System (BIRMS)",
+      "company": "BABL [Business Accelerate BD Ltd]",
+      "createdAt": "2023-02-01T16:26:54Z",
+      "url": "https://birms.drc.gov.bt/",
+      "description": "The Royal Government of Bhutan's new Bhutan Integrated Revenue Management System (BIRMS) is a system for the DRC's Revenue Division, to manage its operations.<br> I have worked on that project as a Front-end developer.<br><br>As a Front-end developer I have:<br><br><br>1. Engage with clients, design systems per requirements.<br>2. Proficiently manage team members, ensuring a comprehensive understanding of system functionality and fostering collaboration.<br>3. Engage in seamless coordination with backend developers to effectively integrate APIs, enhancing project development and delivery.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos-bootstrap"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "simple-icons:postgresql"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=33",
+      "name": "Tutory Club",
+      "company": "NAJJ Technologies Limited",
+      "createdAt": "2022-01-1T16:26:54Z",
+      "url": "",
+      "description": "As a full-stack developer specializing in the MERN stack, I play a crucial role in both front-end and back-end development of web applications.<br><br> My responsibilities included:<br><br>1. Engaging with clients to gather requirements and design systems that meet their needs effectively.<br>2. Proficiently managing team members, ensuring a thorough understanding of system functionality and fostering collaboration among all stakeholders.<br>3. Coordinating seamlessly with backend developers to integrate APIs, enhancing the overall project development and delivery process.<br><br>Through this experience, I have ensured a seamless and responsive user experience while maintaining the integrity of the entire web application.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos-bootstrap"
+        },
+        {
+          "name": "Node JS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "simple-icons:mongodb"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=44",
+      "name": "SMS BANGLADESH",
+      "company": "NAJJ Technologies Limited",
+      "createdAt": "2022-01-1T16:26:54Z",
+      "url": "https://smsbangladesh.com/",
+      "description": "The SMS Bangladesh project is a comprehensive system developed using Laravel for managing operations efficiently. I have worked on that project as a Front-end Developer. My responsibilities included:<br><br>1. Engaging with clients to understand their requirements and designing systems that meet their needs effectively.<br>2. Proficiently managing team members, ensuring a thorough understanding of system functionality and fostering collaboration.<br>3. Coordinating seamlessly with backend developers to integrate APIs, enhancing project development and delivery.<br><br>Through this experience, I contributed to creating a user-friendly interface while ensuring the overall integrity of the application.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos-bootstrap"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "simple-icons:laravel"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "simple-icons:mysql"
+        }
+      ]
+    }
+  ]
+}

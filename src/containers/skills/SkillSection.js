@@ -4,10 +4,16 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FullStackImg from "./FullStackImg";
+import BackendImg from "./BackendImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
+  if (props.fileName === "FullStackImg") {
     return <FullStackImg theme={props.theme} />;
+  } else if (props.fileName === "BackendImg") {
+    return <BackendImg theme={props.theme} />;
+  } else {
+    return null;
+  }
 }
 
 class SkillSection extends Component {
@@ -15,7 +21,7 @@ class SkillSection extends Component {
     const theme = this.props.theme;
     return (
       <div>
-        {skills.data.map((skill) => {
+        {skills?.data?.map((skill) => {
           return (
             <div key={skill.id} className="skills-main-div">
               <Fade left duration={2000}>
@@ -30,15 +36,13 @@ class SkillSection extends Component {
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </Fade>
+
                 <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, index) => {
                       return (
                         <p
-                          key={skillSentence}
+                          key={index}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
@@ -56,5 +60,12 @@ class SkillSection extends Component {
     );
   }
 }
+
+SkillSection.defaultProps = {
+  theme: {
+    text: "#000000",
+    secondaryText: "#7a7a7a",
+  },
+};
 
 export default SkillSection;

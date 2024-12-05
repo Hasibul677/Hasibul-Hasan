@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import codeImg from "../../assests/images/code.svg";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -33,11 +34,11 @@ export default function Greeting(props) {
                   className="portfolio-repo-btn"
                 />
               </div>
-              
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            {/* <FeelingProud theme={theme} /> */}
+            <img src={codeImg} alt="Description of SVG" width="90%" />
           </div>
         </div>
       </div>
