@@ -1,11 +1,8 @@
 import React from "react";
 import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
-import codeImg from "../../assests/images/code.svg";
+import codeImg from "../../assests/images/laptop.webp";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -15,9 +12,6 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              {/* <h3 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
-              </h3> */}
               <div className="greeting-text">
                 <h3 className="wave-text">
                   <span>M</span>
@@ -57,7 +51,6 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <FeelingProud theme={theme} /> */}
             <img src={codeImg} alt="Description of SVG" width="90%" />
           </div>
         </div>
