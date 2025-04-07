@@ -9,7 +9,8 @@ const settings = {
 const seo = {
   title: "Hasibul Hasan Portfolio",
   description:
-    "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    // "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "Hello This is Md. Hasibul Hasan, a skilled front-end developer with a strong proficiency in React.js, Next.js, Redux, and JavaScript. With a passion for creating interactive and user-friendly web applications, I am leveraging their expertise in these technologies to craft engaging and responsive user interfaces. Their dedication to staying updated with the latest trends and best practices in front-end development ensures that they deliver exceptional digital experiences. I am the go-to developer for turning complex ideas into elegant and functional web solutions.",
   og: {
     title: "Hasibul Hasan Portfolio",
     type: "website",
@@ -23,7 +24,7 @@ const greeting = {
   logo_name: "Hasibul Hasan",
   nickname: "",
   subTitle:
-    "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "Front-End Developer (3+ years) specializing in React, Next.js, and Redux. Passionate about building fast, responsive, and user-friendly web apps with clean, efficient code.",
   resumeLink:
     "https://drive.google.com/file/d/15jrJrSd7KXyTN7vmV-W_sRLFWTlwkpHX/view?usp=sharing",
   portfolio_repository: "https://github.com/Hasibul677",
@@ -106,6 +107,13 @@ const skills = {
           },
         },
         {
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
           style: {
@@ -114,35 +122,35 @@ const skills = {
         },
       ],
     },
-    {
-      id: 2,
-      title: "Backend Development",
-      fileName: "BackendImg",
-      skills: [
-        "⚡ Building scalable backends with Node.js, Express, and MongoDB.",
-        // "⚡ Developing server-side applications using Java and Spring Boot.",
-        "⚡ Creating RESTful APIs",
-        "⚡ Implementing authentication with JWT, OAuth, and Spring Security.",
-        "⚡ Writing clean, modular, and secure backend code.",
-        "⚡ Managing workflows with Docker, Postman.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-      ],
-    },
+    // {
+    //   id: 2,
+    //   title: "Backend Development",
+    //   fileName: "BackendImg",
+    //   skills: [
+    //     "⚡ Building scalable backends with Node.js, Express, and MongoDB.",
+    //     // "⚡ Developing server-side applications using Java and Spring Boot.",
+    //     "⚡ Creating RESTful APIs",
+    //     "⚡ Implementing authentication with JWT, OAuth, and Spring Security.",
+    //     "⚡ Writing clean, modular, and secure backend code.",
+    //     "⚡ Managing workflows with Docker, Postman.",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "NodeJS",
+    //       fontAwesomeClassname: "simple-icons:node-dot-js",
+    //       style: {
+    //         color: "#339933",
+    //       },
+    //     },
+    //     {
+    //       skillName: "MongoDB",
+    //       fontAwesomeClassname: "simple-icons:mongodb",
+    //       style: {
+    //         color: "#47A248",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -316,8 +324,8 @@ const contactPageData = {
     location_map_link: "https://maps.app.goo.gl/fNZH3EjhmVgLjEm17",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+88 01308554163",
+    title: "",
+    subtitle: "",
   },
 };
 

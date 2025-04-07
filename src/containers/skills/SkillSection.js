@@ -35,6 +35,8 @@ class SkillSection extends Component {
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
+
+                  <SoftwareSkill skills={skills} />
                 </Fade>
 
                 <Fade right duration={2000}>
