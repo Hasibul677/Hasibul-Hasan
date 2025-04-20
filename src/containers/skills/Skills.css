@@ -18,7 +18,12 @@
   margin-left: 50px;
   font-family: "Google Sans Regular";
 }
-
+.skills-text-div-center {
+  text-align: center;
+}
+.skills-text-div-start {
+  text-align: start;
+}
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;

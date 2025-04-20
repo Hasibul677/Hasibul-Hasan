@@ -19,37 +19,67 @@ function GetSkillSvg(props) {
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
+    console.log(skills?.data);
     return (
       <div>
         {skills?.data?.map((skill) => {
           return (
             <div key={skill.id} className="skills-main-div">
-              <Fade left duration={2000}>
+              {/* <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
-              </Fade>
+              </Fade> */}
 
               <div className="skills-text-div">
-                <Fade right duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
-                    {skill.title}
-                  </h1>
+                <div className="skills-text-div-center">
+                  <Fade right duration={1000}>
+                    <h1
+                      className="skills-heading"
+                      style={{ color: theme.text }}
+                    >
+                      {skill.title}
+                    </h1>
 
-                  <SoftwareSkill skills={skills} />
-                </Fade>
+                    <SoftwareSkill skills={skills} />
+                  </Fade>
+                </div>
 
                 <Fade right duration={2000}>
-                  <div>
-                    {skill.skills.map((skillSentence, index) => {
+                  <div className="row">
+                    {skill.categories.map((skillSentence, index) => {
                       return (
-                        <p
-                          key={index}
-                          className="subTitle skills-text"
-                          style={{ color: theme.secondaryText }}
-                        >
-                          {skillSentence}
-                        </p>
+                        <div className="col-6">
+                          <p
+                            style={{
+                              fontWeight: 800,
+                              marginTop: "15px",
+                              fontSize: "20px",
+                            }}
+                          >
+                            {skillSentence.title}
+                          </p>
+                          <div
+                            key={index}
+                            className="subTitle skills-text"
+                            style={{ color: theme.secondaryText }}
+                          >
+                            {skillSentence.skills.map((skill, index) => {
+                              return (
+                                <div key={index}>
+                                  <p>{skill}</p>
+                                </div>
+                              );
+                            })}
+                            {skillSentence.tools.map((tool, index) => (
+                              <span key={index}>
+                                {tool}
+                                {index !== skillSentence.tools.length - 1 &&
+                                  ", "}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
                       );
                     })}
                   </div>

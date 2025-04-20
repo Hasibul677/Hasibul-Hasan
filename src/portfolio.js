@@ -26,7 +26,7 @@ const greeting = {
   subTitle:
     "Front-End Developer (3+ years) specializing in React, Next.js, and Redux. Passionate about building fast, responsive, and user-friendly web apps with clean, efficient code.",
   resumeLink:
-    "https://drive.google.com/file/d/15jrJrSd7KXyTN7vmV-W_sRLFWTlwkpHX/view?usp=sharing",
+    "https://drive.google.com/file/d/1Q0S_Kod4W3_1OfzG3MjTykwvubeRlNaS/view?usp=sharing",
   portfolio_repository: "https://github.com/Hasibul677",
   githubProfile: "https://github.com/Hasibul677",
 };
@@ -57,100 +57,147 @@ const skills = {
   data: [
     {
       id: 1,
-      title: "Frontend Development",
+      title: "Software Engineer",
       fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive and user-friendly front ends using React and Redux.",
-        "⚡ Creating modular and reusable UI components for scalability.",
-        "⚡ Expertise in CSS frameworks like TailwindCSS, Bootstrap, and Material-UI.",
-        "⚡ Ensuring performance, accessibility (WCAG), and cross-browser compatibility.",
-        "⚡ Translating designs from Adobe XD, Figma, and Sketch into functional code.",
-        "⚡ Integrating APIs and managing state with Redux and Context API.",
-        "⚡ Debugging and optimizing UI/UX using browser tools and testing frameworks.",
-        "⚡ Adding interactive animations with Framer Motion and GSAP.",
+      categories: [
+        {
+          title: "Frontend",
+          skills: [
+            "⚡ Building responsive and user-friendly front ends using React.js, Next.js, and TypeScript",
+            "⚡ Creating modular and reusable UI components for scalability",
+            "⚡ Expertise in CSS frameworks like Tailwind CSS, SASS, and React Bootstrap",
+            "⚡ Ensuring performance, accessibility (WCAG), and cross-browser compatibility",
+          ],
+          tools: [
+            "React.js",
+            "Next.js",
+            "JavaScript (ES6+)",
+            "TypeScript",
+            "HTML5",
+            "CSS3",
+            "Tailwind CSS",
+            "SASS",
+            "React Bootstrap",
+          ],
+        },
+        {
+          title: "Backend",
+          skills: ["⚡ Developing RESTful APIs with Node.js and Express.js"],
+          tools: ["Node.js", "Express.js", "RESTful APIs"],
+        },
+        {
+          title: "State Management",
+          skills: ["⚡ Managing state with Redux and Context API"],
+          tools: ["Redux", "Context API"],
+        },
+        {
+          title: "Testing",
+          skills: [
+            "⚡ Writing unit tests with Jest and other testing frameworks",
+          ],
+          tools: ["Jest"],
+        },
+        {
+          title: "Version Control",
+          skills: [
+            "⚡ Using Git/GitHub for version control in collaborative environments",
+          ],
+          tools: ["Git", "GitHub", "GitLab"],
+        },
+        {
+          title: "Tools & IDEs",
+          skills: [],
+          tools: ["VSCode", "IntelliJ IDEA", "Postman", "Sublime Text"],
+        },
+        {
+          title: "Package Managers",
+          skills: [],
+          tools: ["npm", "yarn"],
+        },
+        {
+          title: "Containerization",
+          skills: ["⚡ Basic containerization with Docker"],
+          tools: ["Docker"],
+        },
+        {
+          title: "Development Methodologies",
+          skills: ["⚡ Working in Agile/Scrum development methodologies"],
+          tools: ["Agile", "Scrum"],
+        },
       ],
       softwareSkills: [
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          style: { color: "#E34F26" },
         },
         {
           skillName: "CSS3",
           fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
+          style: { color: "#1572B6" },
         },
         {
           skillName: "Sass",
           fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
+          style: { color: "#CC6699" },
         },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          style: { backgroundColor: "#000000", color: "#F7DF1E" },
         },
         {
-          skillName: "ReactJS",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: { color: "#3178C6" },
+        },
+        {
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          style: { color: "#61DAFB" },
         },
         {
           skillName: "Next.js",
           fontAwesomeClassname: "simple-icons:nextdotjs",
-          style: {
-            color: "#000000",
-          },
+          style: { color: "#000000" },
         },
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: { color: "#339933" },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: { color: "#F05032" },
+        },
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: { color: "#06B6D4" },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: { color: "#764ABC" },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: { color: "#2496ED" },
+        },
+        {
+          skillName: "Jest",
+          fontAwesomeClassname: "simple-icons:jest",
+          style: { color: "#C21325" },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: { color: "#FF6C37" },
         },
       ],
     },
-    // {
-    //   id: 2,
-    //   title: "Backend Development",
-    //   fileName: "BackendImg",
-    //   skills: [
-    //     "⚡ Building scalable backends with Node.js, Express, and MongoDB.",
-    //     // "⚡ Developing server-side applications using Java and Spring Boot.",
-    //     "⚡ Creating RESTful APIs",
-    //     "⚡ Implementing authentication with JWT, OAuth, and Spring Security.",
-    //     "⚡ Writing clean, modular, and secure backend code.",
-    //     "⚡ Managing workflows with Docker, Postman.",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "NodeJS",
-    //       fontAwesomeClassname: "simple-icons:node-dot-js",
-    //       style: {
-    //         color: "#339933",
-    //       },
-    //     },
-    //     {
-    //       skillName: "MongoDB",
-    //       fontAwesomeClassname: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
