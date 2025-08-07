@@ -26,7 +26,7 @@ const greeting = {
   subTitle:
     "Front-End Developer (3+ years) specializing in React, Next.js, and Redux. Passionate about building fast, responsive, and user-friendly web apps with clean, efficient code.",
   resumeLink:
-    "https://drive.google.com/file/d/1Q0S_Kod4W3_1OfzG3MjTykwvubeRlNaS/view?usp=sharing",
+    "https://drive.google.com/file/d/1xAqNIc1gSQTsVBdxqmgrIDIoGxaxoghg/view?usp=sharing",
   portfolio_repository: "https://github.com/Hasibul677",
   githubProfile: "https://github.com/Hasibul677",
 };
