@@ -24,7 +24,7 @@ const greeting = {
   logo_name: "Hasibul Hasan",
   nickname: "",
   subTitle:
-    "Front-End Developer (3+ years) specializing in React, Next.js, and Redux. Passionate about building fast, responsive, and user-friendly web apps with clean, efficient code.",
+    "Software Engineer specializing in frontend development with 4 years of experience. Expert in building dynamic, high-performance web applications using React.js, Next.js, and TypeScript. Passionate about crafting responsive interfaces, clean code, and seamless user experiences.",
   resumeLink:
     "https://drive.google.com/file/d/1xAqNIc1gSQTsVBdxqmgrIDIoGxaxoghg/view?usp=sharing",
   portfolio_repository: "https://github.com/Hasibul677",
@@ -57,7 +57,7 @@ const skills = {
   data: [
     {
       id: 1,
-      title: "Software Engineer",
+      title: "",
       fileName: "FullStackImg",
       categories: [
         {
@@ -82,37 +82,74 @@ const skills = {
         },
         {
           title: "Backend",
-          skills: ["⚡ Developing RESTful APIs with Node.js and Express.js"],
-          tools: ["Node.js", "Express.js", "RESTful APIs"],
+          skills: [
+            "⚡ Designing and developing high-performance, scalable RESTful APIs using Node.js and Express.js",
+            "⚡ Building and optimizing database schemas, writing complex queries, and ensuring data integrity with PostgreSQL",
+            "⚡ Developing efficient document-based data models and operations with MongoDB",
+            "⚡ Implementing robust authentication, authorization, and security best practices in APIs",
+          ],
+          tools: [
+            "Node.js",
+            "Express.js",
+            "RESTful APIs",
+            "PostgreSQL",
+            "MongoDB",
+          ],
         },
         {
           title: "State Management",
-          skills: ["⚡ Managing state with Redux and Context API"],
-          tools: ["Redux", "Context API"],
+          skills: [
+            "⚡ Managing complex application state using modern libraries like Redux (with Redux Toolkit) and Zustand",
+            "⚡ Implementing predictable state containers with Redux, including middleware like Thunk for async logic",
+            "⚡ Leveraging Zustand for a simpler, lightweight state management solution with minimal boilerplate",
+            "⚡ Structuring global state for optimal performance, scalability, and developer experience",
+          ],
+          tools: ["Redux", "Redux Toolkit", "Zustand", "Context API"],
         },
         {
           title: "Testing",
           skills: [
-            "⚡ Writing unit tests with Jest and other testing frameworks",
+            "⚡ Writing comprehensive unit tests with Jest and other testing frameworks",
+            "⚡ Testing React components and user interactions with React Testing Library",
+            "⚡ Ensuring code reliability and preventing regressions through test-driven development (TDD)",
           ],
-          tools: ["Jest"],
+          tools: ["Jest", "React Testing Library", "Testing Library"],
         },
         {
           title: "Version Control",
           skills: [
-            "⚡ Using Git/GitHub for version control in collaborative environments",
+            "⚡ Using Git and GitHub for version control in collaborative development environments",
+            "⚡ Managing feature branches, pull requests, and code reviews to maintain code quality",
+            "⚡ Resolving merge conflicts and implementing rebase strategies for a linear history",
+            "⚡ Automating workflows with GitHub Actions/GitLab CI for continuous integration",
           ],
-          tools: ["Git", "GitHub", "GitLab"],
+          tools: ["Git", "GitHub", "GitLab", "GitHub Actions", "GitLab CI/CD"],
         },
         {
           title: "Tools & IDEs",
-          skills: [],
-          tools: ["VSCode", "IntelliJ IDEA", "Postman", "Sublime Text"],
+          skills: [
+            "⚡ Proficient in using VSCode and IntelliJ IDEA for efficient development and debugging",
+            "⚡ Utilizing Postman for API testing, documentation, and workflow automation",
+            "⚡ Leveraging browser DevTools for performance profiling and debugging",
+            "⚡ Using Sublime Text for quick edits and lightweight scripting tasks",
+          ],
+          tools: [
+            "VSCode",
+            "IntelliJ IDEA",
+            "Postman",
+            "Sublime Text",
+            "Chrome DevTools",
+          ],
         },
         {
           title: "Package Managers",
-          skills: [],
-          tools: ["npm", "yarn"],
+          skills: [
+            "⚡ Managing project dependencies and scripts using npm and Yarn",
+            "⚡ Implementing efficient dependency versioning and resolution strategies",
+            "⚡ Configuring and optimizing package.json and yarn.lock files",
+            "⚡ Creating and publishing packages to public and private registries",
+          ],
+          tools: ["npm", "yarn", "npx"],
         },
         {
           title: "Containerization",
@@ -121,8 +158,13 @@ const skills = {
         },
         {
           title: "Development Methodologies",
-          skills: ["⚡ Working in Agile/Scrum development methodologies"],
-          tools: ["Agile", "Scrum"],
+          skills: [
+            "⚡ Working in Agile/Scrum development methodologies with sprint planning and iterative delivery",
+            "⚡ Utilizing project management tools like Jira for task tracking and backlog grooming",
+            "⚡ Implementing CI/CD practices for automated testing and deployment pipelines",
+            "⚡ Collaborating effectively in cross-functional teams using Git flow and trunk-based development",
+          ],
+          tools: ["Agile", "Scrum", "Jira", "CI/CD", "Git Flow"],
         },
       ],
       softwareSkills: [
