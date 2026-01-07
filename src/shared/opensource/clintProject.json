@@ -2,9 +2,44 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=22",
+      "name": "Government Performance Monitoring System (GPMS)",
+      "company": "BABL [Business Accelerate BD Ltd]",
+      "createdAt": "2026-01-31T16:26:54Z",
+      "url": "",
+      "description": "As a Frontend Developer, I contributed to a high-priority national initiative focused on increasing government transparency and operational efficiency by digitizing the Annual Performance Agreement (APA) process.<br>The project involved developing a robust web platform to manage performance metrics, user data, and real-time reporting through REST APIs.<br><br>Responsibilities:<br><br>1. Architected and developed a dynamic single-page application (SPA) using React.js with functional components and hooks for clean and efficient code.<br>2. Implemented state management using Redux and Redux Thunk to handle complex application state and asynchronous API interactions.<br>3. Built a fully responsive and accessible user interface using HTML5, CSS3, and Bootstrap, ensuring compatibility across multiple devices.<br>4. Integrated and tested REST APIs for real-time data visualization and reporting, utilizing Postman for debugging and validation.<br>5. Collaborated in an Agile development environment using GitLab for version control, participating in peer code reviews to maintain high code quality.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos-bootstrap"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Oracle",
+          "iconifyClass": "simple-icons:oracle"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=22",
       "name": "Meghna Bank Liability Management & 360-Degree Customer",
       "company": "BABL [Business Accelerate BD Ltd]",
-      "createdAt": "",
+      "createdAt": "2026-01-31T16:26:54Z",
       "url": "",
       "description": "As the Frontend Team Lead, I led the development of a web application aimed at improving banking services for customers in Bangladesh.<br>The project involved live data integration for searching, viewing, and generating reports on customer-related information.<br><br>Responsibilities:<br><br>1. Led the frontend team in building a responsive, scalable application using React.js, Material UI, React-Bootstrap, and RTK.<br>2. Integrated real-time data handling through Redux Query and microservices architecture.<br>3. Ensured best practices through code reviews and mentoring junior developers.<br>4. Collaborated with backend teams for seamless integration of microservices.<br>5. Designed an intuitive and user-friendly interface, improving the overall user experience.",
       "isFork": false,
@@ -39,7 +74,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=55",
       "name": "Liability Workflow (City Bank Limited)",
       "company": "BABL [Business Accelerate BD Ltd]",
-      "createdAt": "",
+      "createdAt": "2026-01-31T16:26:54Z",
       "url": "",
       "description": "As a Frontend Developer, I contributed to the development of a web application designed to streamline banking services for customers in Bangladesh.<br>The project focused on integrating live data for searching, viewing, and generating reports related to customer information.<br><br>Responsibilities:<br><br>1. Collected client requirements to understand needs and expectations.<br>2. Created dynamic forms using custom JSON for data handling.<br>3. Implemented file upload functionality for data management in tables.<br>4. Collaborated with the backend team to integrate APIs into the frontend.<br>5. Designed reusable React components for tables, modals, and error handling.<br>6. Adapted design to meet client specifications for a responsive interface.<br>7. Conducted client meetings for feedback and updates.<br>8. Resolved UAT-related issues to improve application performance.",
       "isFork": false,
