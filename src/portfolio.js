@@ -321,9 +321,10 @@ const experience = {
         {
           title: "Software Engineer",
           company: "BABL [Business Accelerate BD Ltd]",
+          role: "Frontend Developer",
           company_url: "https://businessaccelerate.com.bd/",
           logo_path: "babl.jpeg",
-          duration: "February 2023 - Present",
+          duration: "February 2023 - January 2026",
           location:
             "Sand Stone GA 9/3 Level: 03, Progoti Shoroni Shoroni Shajadpur, Dhaka-1212, Bangladesh",
           description:
@@ -333,6 +334,7 @@ const experience = {
         {
           title: "Software Engineer",
           company: "NAJJ Technologies Ltd",
+          role: "Full-Stack Developer",
           company_url: "https://najjtechnologies.com/",
           logo_path: "najj.jpg",
           duration: "November 2021 - January 2023",
