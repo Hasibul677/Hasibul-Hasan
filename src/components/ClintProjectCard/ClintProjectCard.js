@@ -49,7 +49,7 @@ export default function ClintProjectCard({ repo, theme }) {
               style={{ color: theme.secondaryText }}
             >
               {repo.createdAt
-                ? `Created on:  ${repo.createdAt.split("T")[0]}`
+                ? `Handover on:  ${repo.createdAt.split("T")[0]}`
                 : "Current Project"}
             </p>
             <ProjectLanguages
