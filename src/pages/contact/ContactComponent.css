@@ -58,6 +58,12 @@
   max-width: 50%;
   height: auto;
 }
+.contact-heading-img-div img {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 .blog-heading-img-div > * {
   max-width: 100%;
