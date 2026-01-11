@@ -319,6 +319,18 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Engineer I",
+          company: "AKIJ iBOS Limited",
+          role: "Frontend Developer",
+          company_url: "https://ibos.io/",
+          logo_path: "ibos.png",
+          duration: "February 2026 - Present",
+          location: "6/2 Kazi Nazrul Islam Rd, Lalmatia, Dhaka-1207",
+          description:
+            "AKIJ iBOS started with one goal: to make business management easier with technology that everyone can rely on. We saw that many companies were working hard, but their systems slowed them down, so we built tools that stay reliable and grow with the business. Today, organisations choose AKIJ iBOS because they want premium but affordable solutions that remove extra hassle. With a team that understands real business challenges, we create solutions that help companies work faster, stay organised, and prepare for the future.",
+          color: "#0879bf",
+        },
+        {
           title: "Software Engineer",
           company: "BABL [Business Accelerate BD Ltd]",
           role: "Frontend Developer",
