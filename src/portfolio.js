@@ -416,7 +416,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hasibul.png",
+    profile_image_path: "hasibul.jpg",
     description:
       "Feel free to connect with me on any social media platform—I'm active on almost all of them! If you send me a message, I’ll make sure to reply within 24 hours. Whether it’s for work, networking, or a quick chat, I’m just a message away.",
   },
