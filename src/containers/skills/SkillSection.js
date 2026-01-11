@@ -7,6 +7,14 @@ import { Fade } from "react-reveal";
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
+    const getRandomColor = () => {
+      const letters = "0123456789ABCDEF";
+      let color = "#";
+      for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    };
 
     return (
       <div className="skills-main-div">
@@ -45,7 +53,14 @@ class SkillSection extends Component {
                     {/* Tools as chips */}
                     <div className="skills-tools">
                       {category.tools.map((tool, idx) => (
-                        <span key={idx} className="tool-chip">
+                        <span
+                          key={idx}
+                          className="tool-chip"
+                          style={{
+                            backgroundColor: getRandomColor(),
+                            color: "#fff",
+                          }}
+                        >
                           {tool}
                         </span>
                       ))}

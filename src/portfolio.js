@@ -68,17 +68,7 @@ const skills = {
             "⚡ Expertise in CSS frameworks like Tailwind CSS, SASS, and React Bootstrap",
             "⚡ Ensuring performance, accessibility (WCAG), and cross-browser compatibility",
           ],
-          tools: [
-            "React.js",
-            "Next.js",
-            "JavaScript (ES6+)",
-            "TypeScript",
-            "HTML5",
-            "CSS3",
-            "Tailwind CSS",
-            "SASS",
-            "React Bootstrap",
-          ],
+          tools: ["React.js", "Next.js", "JavaScript (ES6+)", "TypeScript"],
         },
         {
           title: "Backend",
@@ -88,13 +78,7 @@ const skills = {
             "⚡ Developing efficient document-based data models and operations with MongoDB",
             "⚡ Implementing robust authentication, authorization, and security best practices in APIs",
           ],
-          tools: [
-            "Node.js",
-            "Express.js",
-            "RESTful APIs",
-            "PostgreSQL",
-            "MongoDB",
-          ],
+          tools: ["Node.js", "Express.js", "RESTful APIs", "PostgreSQL"],
         },
         {
           title: "State Management",
@@ -133,13 +117,7 @@ const skills = {
             "⚡ Leveraging browser DevTools for performance profiling and debugging",
             "⚡ Using Sublime Text for quick edits and lightweight scripting tasks",
           ],
-          tools: [
-            "VSCode",
-            "IntelliJ IDEA",
-            "Postman",
-            "Sublime Text",
-            "Chrome DevTools",
-          ],
+          tools: ["VSCode", "IntelliJ IDEA", "Postman", "Sublime Text"],
         },
         {
           title: "Package Managers",
