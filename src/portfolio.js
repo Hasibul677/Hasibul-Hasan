@@ -37,21 +37,25 @@ const socialMediaLinks = [
     name: "Github",
     link: "https://github.com/Hasibul677",
     fontAwesomeIcon: "fa-github",
+    iconType: "fab",
     backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/md-hasibul-hasan-793407164/",
     fontAwesomeIcon: "fa-linkedin-in",
+    iconType: "fab",
     backgroundColor: "#0077B5",
   },
   {
     name: "Gmail",
     link: "mailto:hhasibul677@gmail.com",
-    fontAwesomeIcon: "fa-google",
+    fontAwesomeIcon: "fa-envelope",
+    iconType: "fas",
     backgroundColor: "#D14836",
   },
 ];
+
 //Home Page Skill
 const skills = {
   data: [
